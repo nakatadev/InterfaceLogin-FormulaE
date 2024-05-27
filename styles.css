@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #010032;
+  }
+  
+  .login,
+  .registro {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .login h3,
+  .registro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login form,
+  .registro form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login form input,
+  .registro form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #010032;
+    border-radius: 3px;
+  }
+  
+  .login form button,
+  .registro form button {
+    background-color: #010032;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login form button:hover,
+  .registro form button:hover {
+    background-color: #0067cc;
+  }
+  
+  .login p,
+  .registro p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login a,
+  .registro a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .registro #numerosAdicionais {
+    margin-bottom: 10px;
+  }
+  
+  .registro #numerosAdicionais input {
+    margin-bottom: 5px;
+  }
+  
+  .registro label {
+    margin-bottom: 5px;
+  }
+  
+  
