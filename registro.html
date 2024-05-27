@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <section class="registro">
+        <div class="registro__container">
+            <h2>Registre-se</h2>
+            <form id="registroForm" action="login.html">
+                <label for="name">Nome:</label>
+                <input type="text" id="registroNome" placeholder="Digite seu nome" required>
+                <br>
+                <br>
+                <label for="sobrenome">sobrenome:</label>
+                <input type="text" id="registroSobrenome" required>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="registroEmail" placeholder="Digite seu email" required>
+                <br>
+                <br>
+                <label for="password">Senha</label>
+                <input type="password" id="registroSenha" placeholder="Crie uma senha" required>
+                <br>
+                <br>
+                <label for="numero">Numero</label>
+                <input type="number" maxlength="20" id="numeroTel">
+                <button type="button" id="adicionarNumero">Adicionar</button>
+                <br>
+                <div id="numerosAdicionais">
+
+                </div>
+                <br>
+                <label for="observacoes">Observações</label>
+                <input type="text" size="60" id="registroObservacoes">
+                <br><br>
+                <button type="submit" id="botao_criar">Criar conta</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
