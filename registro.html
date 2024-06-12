@@ -6,44 +6,55 @@
     <title>Registro</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <section class="registro">
-        <div class="registro__container">
-            <h2>Registre-se</h2>
-            <form id="registroForm" action="login.html">
-                <label for="name">Nome:</label>
-                <input type="text" id="registroNome" placeholder="Digite seu nome" required>
-                <br>
-                <br>
-                <label for="sobrenome">Sobrenome:</label>
-                <input type="text" id="registroSobrenome" placeholder="Digite seu sobrenome" required>
-                <br>
-                <br>
-                <label for="email">Email:</label>
-                <input type="email" id="registroEmail" placeholder="Digite seu email" required>
-                <br>
-                <br>
-                <label for="password">Senha</label>
-                <input type="password" id="registroSenha" placeholder="Crie uma senha" required>
-                <br>
-                <br>
-                <label for="numero">Numero</label>
-                <input type="number" maxlength="20" id="numeroTel" placeholder="Digite seu telefone">
-                <button type="button" id="adicionarNumero">Adicionar</button>
-                <br>
-                <div id="numerosAdicionais">
+<body class="body__registro">
 
-                </div>
-                <br>
-                <label for="observacoes">Observações</label>
-                <input type="text" size="60" id="registroObservacoes" placeholder="Digite suas observações">
-                <br><br>
-                <button type="submit" id="botao_criar">Criar conta</button>
-                <p>Já tem conta? <a href="login.html">Clique aqui</a></p>
-            </form>
-        </div>
-    </section>
+    <main>
+        <section class="registro">
+            <div class="registro__container">
+                <h2>Registre-se</h2>
+                <form id="registroForm" class="formulario_registro">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="registroNome" required>
+                    
+                    <br>
 
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="registroSobrenome" size="15" required>
+
+                    <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="registroEmail" placeholder="Digite seu email" required>
+
+                    <br>
+
+                    <label for="password">Senha:</label>
+                    <input type="password" id="registroSenha" placeholder="Crie uma senha" required>
+
+                    <br>
+
+                    <label for="numero">Número:</label>
+                    <input type="number" maxlength="20" id="numeroTel">
+                    
+                    <br>
+
+                    <button type="button" id="adicionarNumero">Adicionar</button>
+                    <div id="numerosAdicionais"></div>
+
+                    <br>
+                    <label for="observacoes">Observações:</label>
+                    <input type="text" size="30" id="registroObservacoes">
+
+                    <br>
+                    <div>
+                        <button type="button" id="botao_criar" class="botao__registro">Criar conta</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="acesso.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
