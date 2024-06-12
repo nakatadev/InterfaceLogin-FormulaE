@@ -70,9 +70,8 @@ function entrarConta(){
     });
 
     if (usuarioEncontrado) {
-        window.location.href = "https://www.fiap.com.br/";
+        window.location.href = "https://www.fiaformulae.com/pt-br";
     } else {
         alert("Credenciais inválidas. Sai Hacker!!");
     }
 }
-
