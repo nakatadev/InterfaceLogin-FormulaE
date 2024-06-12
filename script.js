@@ -70,7 +70,7 @@ function entrarConta(){
     });
 
     if (usuarioEncontrado) {
-        window.location.href = "https://www.fiaformulae.com/pt-br";
+        window.location.href = "www.linkedin.com/in/rodrigo-nakata-9944a72aa";
     } else {
         alert("Credenciais inválidas. Sai Hacker!!");
     }
