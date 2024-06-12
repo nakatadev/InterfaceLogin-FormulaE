@@ -7,20 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="login">
-        <div class="login__container">
-            <h3>ACESSE SUA CONTA</h3>
-            <form>
-                <input type="email" placeholder="Digite seu email" id="email_login" required>
-                <br><br>
-                <input type="password" placeholder="Digite sua senha" id="senha_login" required>
-                <br><br>
-                <button type="button" id="logar" onclick="entrarConta()">Entrar</button>
-            </form>
-            <p>Não tem conta? <a href="registro.html">Clique aqui</a></p>
-        </div>
-    </section>
+    <header>
+        <section class="cabecalho">
+            <img src="images-removebg-preview (3) 1 1.svg" alt="Logo Formula E" class="logo_formula">
+            <nav class="menu_nav">
+                <a href="registro.html" class="registro__content">Register</a>
+                <a href="login.html"> Sign-Up</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__container">
+                <div class="acesso_conta">
+                    <img src="Vector.svg" alt="" width="40" height="35" class="icone_conta">
+                    <h3 class="titulo__login">ACESSE SUA CONTA</h3>
+                </div>
+                <form>
+                    <input type="email" placeholder="Digite seu email" id="email_login" class="input__email" required>
+                    <br>
+                    <input type="password" placeholder="Digite sua senha" id="senha_login" class="input__password" required>
+                    <br><br>
+                    <button type="button" id="logar" onclick="entrarConta()" class="botao__login">Entrar</button>
+                </form>
+                <br>
+                <p>Não tem conta? <a href="registro.html">Clique aqui</a></p>
+            </div>
+        </section>
+    </main>
 
-    <script src="script.js"></script>
-</body>
-</html>
+    <footer>
+        <section class="rodape">
+            <h2>© FIA 2013-2024 </h2>
+            <p>Todos os direitos reservados</p>
+        </section>
+    </footer>
+
